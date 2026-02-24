@@ -12,7 +12,7 @@ body {
     justify-content: center;
     align-items: center;
     min-height: 100vh;
-    background-color: #f0f4f8;
+    background-color: #e3e7ec;
 }
 
 .container {
@@ -38,7 +38,7 @@ body {
 
 .answer-button {
     padding: 20px 30px;
-    border: 2px solid #333;
+    border: none;
     border-radius: 12px;
     font-size: 24px;
     font-weight: 600;
@@ -49,13 +49,14 @@ body {
 
 .answer-button:hover {
     transform: scale(1.1);
-    background-color: #e0e0e0;
+    background-color: #bfd9fb;
+    box-shadow: 0px 0px 6px #2e7bf0;
 }
 
 
 /* --------- ESTILOS ALTERNATIVOS PARA BOTONES --------- */
 
-/* .options {
+.options {
     padding: 20px 40px;
     font-size: 24px;
     font-weight: 600;
@@ -65,8 +66,7 @@ body {
     border: none;
     border-radius: 20px;
     position: relative;
-    
+
     /* Aplicando un "sombreado" para que tenga efecto 3d */
     box-shadow: 0px 8px 0px #f57f17;
-} */
-
+}
